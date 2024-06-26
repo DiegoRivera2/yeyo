@@ -1,0 +1,63 @@
+/*Normalize*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* HOME*/
+.home{
+    width: 100vw;  /* 100% del ancho del viewport */
+    height: 100vh; /* 100% del alto del viewport */
+    background-color: #ffffff; /* Color de fondo del div */
+    display: flex;
+    padding-left: 5vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    background-image: url(img/back_amp.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.tittle{
+    font-size: 500%;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.description{
+    font-size: 250%;
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    text-align: left;
+    font-weight: 400;
+    width: 50%;
+    padding-bottom: 5vh;
+    color: white;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+}
+
+.contact-button{
+    all: unset;
+    font-family: "Jost", sans-serif;
+    padding: 10px 20px;
+    font-size: 150%;
+    font-weight: 600;
+    width: 20vw;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.contact-button:hover{
+    background-color: white;
+    color: orangered;
+    transition: .5s;
+}
